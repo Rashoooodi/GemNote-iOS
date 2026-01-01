@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0000001000000000000001 /* GemNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000001000000000000001 /* GemNoteApp.swift */; };
+		A0000002000000000000001 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000002000000000000001 /* HomeView.swift */; };
+		A0000003000000000000001 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000003000000000000001 /* HomeViewModel.swift */; };
+		A0000004000000000000001 /* RecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000004000000000000001 /* RecorderView.swift */; };
+		A0000005000000000000001 /* RecorderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000005000000000000001 /* RecorderViewModel.swift */; };
+		A0000006000000000000001 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000006000000000000001 /* NoteDetailView.swift */; };
+		A0000007000000000000001 /* NoteDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000007000000000000001 /* NoteDetailViewModel.swift */; };
+		A0000008000000000000001 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000008000000000000001 /* SettingsView.swift */; };
+		A0000009000000000000001 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000009000000000000001 /* SettingsViewModel.swift */; };
+		A000000A000000000000001 /* GeminiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000000A000000000000001 /* GeminiClient.swift */; };
+		A000000B000000000000001 /* GeminiModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000000B000000000000001 /* GeminiModels.swift */; };
+		A000000C000000000000001 /* PromptBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000000C000000000000001 /* PromptBuilder.swift */; };
+		A000000D000000000000001 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000000D000000000000001 /* PersistenceController.swift */; };
+		A000000E000000000000001 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000000E000000000000001 /* KeychainManager.swift */; };
+		A000000F000000000000001 /* SharedTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000000F000000000000001 /* SharedTypes.swift */; };
+		A0000010000000000000001 /* NoteCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000010000000000000001 /* NoteCardView.swift */; };
+		A0000011000000000000001 /* ToggleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000011000000000000001 /* ToggleRowView.swift */; };
+		A0000012000000000000001 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000012000000000000001 /* PrimaryButton.swift */; };
+		A0000013000000000000001 /* GemNoteTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000013000000000000001 /* GemNoteTheme.swift */; };
+		A0000014000000000000001 /* GemNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0000014000000000000001 /* GemNote.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90000001000000000000001 /* GemNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GemNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0000001000000000000001 /* GemNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemNoteApp.swift; sourceTree = "<group>"; };
+		B0000002000000000000001 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B0000003000000000000001 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B0000004000000000000001 /* RecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderView.swift; sourceTree = "<group>"; };
+		B0000005000000000000001 /* RecorderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderViewModel.swift; sourceTree = "<group>"; };
+		B0000006000000000000001 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
+		B0000007000000000000001 /* NoteDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewModel.swift; sourceTree = "<group>"; };
+		B0000008000000000000001 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B0000009000000000000001 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		B000000A000000000000001 /* GeminiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiClient.swift; sourceTree = "<group>"; };
+		B000000B000000000000001 /* GeminiModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiModels.swift; sourceTree = "<group>"; };
+		B000000C000000000000001 /* PromptBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptBuilder.swift; sourceTree = "<group>"; };
+		B000000D000000000000001 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		B000000E000000000000001 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		B000000F000000000000001 /* SharedTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTypes.swift; sourceTree = "<group>"; };
+		B0000010000000000000001 /* NoteCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCardView.swift; sourceTree = "<group>"; };
+		B0000011000000000000001 /* ToggleRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleRowView.swift; sourceTree = "<group>"; };
+		B0000012000000000000001 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		B0000013000000000000001 /* GemNoteTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemNoteTheme.swift; sourceTree = "<group>"; };
+		B0000014000000000000001 /* GemNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GemNote.xcdatamodel; sourceTree = "<group>"; };
+		B0000015000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80000001000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70000001000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				C0000001000000000000001 /* GemNote */,
+				70000002000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70000002000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90000001000000000000001 /* GemNote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0000001000000000000001 /* GemNote */ = {
+			isa = PBXGroup;
+			children = (
+				B0000015000000000000001 /* Info.plist */,
+				C0000002000000000000001 /* App */,
+				C0000003000000000000001 /* Features */,
+				C0000004000000000000001 /* AI */,
+				C0000005000000000000001 /* Data */,
+				C0000006000000000000001 /* Security */,
+				C0000007000000000000001 /* Models */,
+				C0000008000000000000001 /* UI */,
+			);
+			path = GemNote;
+			sourceTree = "<group>";
+		};
+		C0000002000000000000001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B0000001000000000000001 /* GemNoteApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C0000003000000000000001 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				C0000009000000000000001 /* Home */,
+				C000000A000000000000001 /* Recorder */,
+				C000000B000000000000001 /* Notes */,
+				C000000C000000000000001 /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		C0000004000000000000001 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				B000000A000000000000001 /* GeminiClient.swift */,
+				B000000B000000000000001 /* GeminiModels.swift */,
+				B000000C000000000000001 /* PromptBuilder.swift */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		C0000005000000000000001 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B000000D000000000000001 /* PersistenceController.swift */,
+				B0000014000000000000001 /* GemNote.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C0000006000000000000001 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				B000000E000000000000001 /* KeychainManager.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		C0000007000000000000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B000000F000000000000001 /* SharedTypes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C0000008000000000000001 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C000000D000000000000001 /* Components */,
+				C000000E000000000000001 /* Theme */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C0000009000000000000001 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B0000002000000000000001 /* HomeView.swift */,
+				B0000003000000000000001 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C000000A000000000000001 /* Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				B0000004000000000000001 /* RecorderView.swift */,
+				B0000005000000000000001 /* RecorderViewModel.swift */,
+			);
+			path = Recorder;
+			sourceTree = "<group>";
+		};
+		C000000B000000000000001 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				B0000006000000000000001 /* NoteDetailView.swift */,
+				B0000007000000000000001 /* NoteDetailViewModel.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		C000000C000000000000001 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B0000008000000000000001 /* SettingsView.swift */,
+				B0000009000000000000001 /* SettingsViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		C000000D000000000000001 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B0000010000000000000001 /* NoteCardView.swift */,
+				B0000011000000000000001 /* ToggleRowView.swift */,
+				B0000012000000000000001 /* PrimaryButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C000000E000000000000001 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				B0000013000000000000001 /* GemNoteTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60000001000000000000001 /* GemNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50000001000000000000001 /* Build configuration list for PBXNativeTarget "GemNote" */;
+			buildPhases = (
+				80000002000000000000001 /* Sources */,
+				80000001000000000000001 /* Frameworks */,
+				80000003000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GemNote;
+			productName = GemNote;
+			productReference = 90000001000000000000001 /* GemNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10000001000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					60000001000000000000001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 20000001000000000000001 /* Build configuration list for PBXProject "GemNote" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70000001000000000000001;
+			productRefGroup = 70000002000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60000001000000000000001 /* GemNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80000003000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80000002000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0000001000000000000001 /* GemNoteApp.swift in Sources */,
+				A0000002000000000000001 /* HomeView.swift in Sources */,
+				A0000003000000000000001 /* HomeViewModel.swift in Sources */,
+				A0000004000000000000001 /* RecorderView.swift in Sources */,
+				A0000005000000000000001 /* RecorderViewModel.swift in Sources */,
+				A0000006000000000000001 /* NoteDetailView.swift in Sources */,
+				A0000007000000000000001 /* NoteDetailViewModel.swift in Sources */,
+				A0000008000000000000001 /* SettingsView.swift in Sources */,
+				A0000009000000000000001 /* SettingsViewModel.swift in Sources */,
+				A000000A000000000000001 /* GeminiClient.swift in Sources */,
+				A000000B000000000000001 /* GeminiModels.swift in Sources */,
+				A000000C000000000000001 /* PromptBuilder.swift in Sources */,
+				A000000D000000000000001 /* PersistenceController.swift in Sources */,
+				A000000E000000000000001 /* KeychainManager.swift in Sources */,
+				A000000F000000000000001 /* SharedTypes.swift in Sources */,
+				A0000010000000000000001 /* NoteCardView.swift in Sources */,
+				A0000011000000000000001 /* ToggleRowView.swift in Sources */,
+				A0000012000000000000001 /* PrimaryButton.swift in Sources */,
+				A0000013000000000000001 /* GemNoteTheme.swift in Sources */,
+				A0000014000000000000001 /* GemNote.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30000001000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30000002000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40000001000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GemNote/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gemnote.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		40000002000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GemNote/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gemnote.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20000001000000000000001 /* Build configuration list for PBXProject "GemNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30000001000000000000001 /* Debug */,
+				30000002000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50000001000000000000001 /* Build configuration list for PBXNativeTarget "GemNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40000001000000000000001 /* Debug */,
+				40000002000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B0000014000000000000001 /* GemNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B0000014000000000000001 /* GemNote.xcdatamodel */,
+			);
+			currentVersion = B0000014000000000000001 /* GemNote.xcdatamodel */;
+			path = GemNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 10000001000000000000001 /* Project object */;
+}
