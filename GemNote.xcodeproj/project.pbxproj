@@ -27,6 +27,7 @@
 		AA0000240000000000000001 /* ToggleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000250000000000000001 /* ToggleRowView.swift */; };
 		AA0000260000000000000001 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000270000000000000001 /* PrimaryButton.swift */; };
 		AA0000280000000000000001 /* GemNoteTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000290000000000000001 /* GemNoteTheme.swift */; };
+		AA0000470000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0000480000000000000001 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		AA0000290000000000000001 /* GemNoteTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemNoteTheme.swift; sourceTree = "<group>"; };
 		AA00002A0000000000000001 /* GemNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GemNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA00002B0000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0000480000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				AA00002B0000000000000001 /* Info.plist */,
+				AA0000480000000000000001 /* Assets.xcassets */,
 				AA0000300000000000000001 /* App */,
 				AA0000310000000000000001 /* Features */,
 				AA0000320000000000000001 /* AI */,
@@ -271,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA0000470000000000000001 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
